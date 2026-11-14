@@ -1,6 +1,6 @@
 # Data Warehouse & Analytics Project
 
-Welcome to the **Data Warehouse and Analytics Project** repository! 
+Welcome to my **Data Warehouse and Analytics Project!** 
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project,
 it highlights industry best practices in data engineering and analytics.
 
@@ -11,12 +11,12 @@ it highlights industry best practices in data engineering and analytics.
 ### Building the Data Warehouse (Data Engineering)
 
 #### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
+Build a centralized data warehouse using SQL Server that integrates sales data from multiple sources, creating a structured and reliable foundation for reporting and analysis.
 
 #### Specifications
-- **Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
-- **Data Quality**: Cleanse and resolve data quality issues prior to analysis.
-- **Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
+- **Data Sources**: Extract and import data from two systems (ERP and CRM) provided as CSV files.
+- **Data Quality**: Identify and resolve data inconsistencies, missing values, and other quality issues to improve data reliability.
+- **Integration**: Consolidate data from both sources into a unified data model optimized for analysis and reporting.
 - **Scope**: Focus on the latest dataset only; historization of data is not required.
 - **Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
 
@@ -25,10 +25,12 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 ### BI: Analytics & Reporting (Data Analytics)
 
 #### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
+Use SQL queries to analyze the data warehouse and uncover insights that can help businesses better understand their performance.
+
+The analysis will focus on three key areas:
+- **Customer Behavior**: Explore customer purchasing patterns and trends.
+- **Product Performance**: Evaluate product sales and identify top-performing products.
+- **Sales Trends**: Analyze sales performance over time to identify patterns and opportunities.
 
 These insights empower stakeholders with key business metrics, enabling strategic decision-making.
 
