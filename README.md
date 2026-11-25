@@ -234,7 +234,7 @@ This project is part of my journey toward becoming a Data Engineer, allowing me 
 
 ### 🔗 Connect With Me
 
-- 💼 **LinkedIn:** [Connect with me]([https://www.linkedin.com/in/YOUR-PROFILE/](https://www.linkedin.com/in/faraz-khan-294185130/))
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue?logo=linkedin)](https://www.linkedin.com/in/faraz-khan-294185130/)
 - 💻 **GitHub:** [View my projects](https://github.com/khanfarazwk)
 - 📧 **Email:** [Contact me](mailto:khanfaraz.wk@gmail.com)
 
