@@ -11,20 +11,20 @@ Through this project, I'm developing practical skills in **data engineering, ETL
 
 ## 📑 Table of Contents
 
-- [Tech Stack](#-tech-stack)
-- [Project Requirements](#-project-requirements)
-- [Data Architecture](#-data-architecture)
-- [ETL Pipeline](#-etl-pipeline)
-- [Data Model](#-data-model)
-- [Project Structure](#-project-structure)
-- [Key Project Files](#-key-project-files)
-- [Data Quality & Testing](#-data-quality--testing)
-- [Acknowledgments](#-acknowledgments)
-- [About Me](#-about-me)
-- [License](#-license)
+- [Tech Stack](#tech-stack)
+- [Project Requirements](#project-requirements)
+- [Data Architecture](#data-architecture)
+- [ETL Pipeline](#etl-pipeline)
+- [Data Model](#data-model)
+- [Project Structure](#project-structure)
+- [Key Project Files](#key-project-files)
+- [Data Quality & Testing](#data-quality-testing)
+- [About Me](#about-me)
+- [License](#license)
 
 ---
 
+<a id="tech-stack"></a>
 ## 🛠️ Tech Stack
 
 - **Database:** Microsoft SQL Server
@@ -37,6 +37,7 @@ Through this project, I'm developing practical skills in **data engineering, ETL
 
 ---
 
+<a id="project-requirements"></a>
 ## 📋 Project Requirements
 
 ### Building the Data Warehouse (Data Engineering)
@@ -69,6 +70,7 @@ These insights provide stakeholders with valuable business metrics to support da
 
 ---
 
+<a id="data-architecture"></a>
 ## 🏗️ Data Architecture
 
 This project follows the **Medallion Architecture**, organizing data into three layers: Bronze, Silver, and Gold.
@@ -88,6 +90,7 @@ Each layer plays a specific role in transforming raw data into structured, busin
 
 ---
 
+<a id="etl-pipeline"></a>
 ## 🔄 ETL Pipeline
 
 The data pipeline is organized into three layers, each responsible for a specific stage of data processing.
@@ -114,6 +117,7 @@ The data pipeline is organized into three layers, each responsible for a specifi
 
 ---
 
+<a id="data-model"></a>
 ## 🗃️ Data Model
 
 The Gold Layer follows a **Star Schema** designed to support analytical reporting and business intelligence.
@@ -132,6 +136,7 @@ For detailed information about each table and its columns, refer to the [Gold La
 
 ---
 
+<a id="project-structure"></a>
 ## 📂 Project Structure
 
 The repository is organized into separate folders for datasets, documentation, SQL scripts, and data quality testing.
@@ -170,9 +175,11 @@ sql-data-warehouse-project/
 └── README.md                         # Project overview
 ```
 
+<a id="key-project-files"></a>
 ### 🔗 Key Project Files
 
 **Documentation**
+
 - [Data Warehouse Architecture](docs/Architecture.drawio.png)
 - [Data Flow Diagram](docs/Data%20Flow%20Diagram.drawio.png)
 - [Integration Model](docs/Integration%20Model.drawio.png)
@@ -180,17 +187,20 @@ sql-data-warehouse-project/
 - [Gold Layer Data Dictionary](docs/data_catalog.md)
 
 **SQL Scripts**
+
 - [Database Initialization](scripts/init_database.sql)
 - [Bronze Layer Table Definitions](scripts/bronze/ddl_bronze.SQL)
 - [Bronze Layer Loading Procedure](scripts/bronze/proc_load_bronze.sql)
 - [Gold Layer Definitions](scripts/gold/ddl_gold.sql)
 
 **Data Quality Testing**
+
 - [Silver Layer Quality Checks](tests/quality_checks_silver.sql)
 - [Gold Layer Quality Checks](tests/quality_checks_gold.sql)
 
 ---
 
+<a id="data-quality-testing"></a>
 ## ✅ Data Quality & Testing
 
 Data quality checks are included to help validate data consistency, accuracy, and reliability throughout the data pipeline.
@@ -206,11 +216,13 @@ The Silver Layer testing scripts are used to validate the cleaned and transforme
 The Gold Layer testing scripts are used to validate the business-ready datasets and support reliable analytical reporting.
 
 **Testing Scripts:**
+
 - [Silver Layer Quality Checks](tests/quality_checks_silver.sql)
 - [Gold Layer Quality Checks](tests/quality_checks_gold.sql)
 
 ---
 
+<a id="about-me"></a>
 ## 👨‍💻 About Me
 
 Hey! I'm Faraz Khan, a Data Analyst with over 4 years of experience working with enterprise data, reporting, and business analytics.
@@ -221,8 +233,7 @@ This project is part of my journey toward becoming a Data Engineer, allowing me 
 
 ---
 
+<a id="license"></a>
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project in accordance with the license terms.
-
-
