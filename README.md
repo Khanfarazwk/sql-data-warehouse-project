@@ -222,6 +222,7 @@ The Gold Layer testing scripts are used to validate the business-ready datasets 
 
 ---
 
+
 <a id="about-me"></a>
 ## 👨‍💻 About Me
 
@@ -230,6 +231,15 @@ Hey! I'm Faraz Khan, a Data Analyst with over 4 years of experience working with
 I'm currently expanding my technical skills in SQL, data warehousing, and data engineering, with a focus on building scalable data solutions that transform raw data into meaningful business insights.
 
 This project is part of my journey toward becoming a Data Engineer, allowing me to apply industry best practices and gain hands-on experience with real-world data challenges.
+
+### 🔗 Connect With Me
+
+- 💼 **LinkedIn:** [Connect with me]([https://www.linkedin.com/in/YOUR-PROFILE/](https://www.linkedin.com/in/faraz-khan-294185130/))
+- 💻 **GitHub:** [View my projects](https://github.com/YOUR-USERNAME)
+- 📧 **Email:** [Contact me](mailto:khanfaraz.wk@gmail.com)
+
+---
+
 
 ---
 
