@@ -81,7 +81,7 @@ Each layer plays a specific role in transforming raw data into structured, busin
 
 ![Data Warehouse Architecture](docs/Architecture.drawio.png)
 
-### Additional Architecture Documentation
+### 🔗 Additional Architecture Documentation
 
 - 📊 [Data Flow Diagram](docs/Data%20Flow%20Diagram.drawio.png)
 - 🔗 [Data Integration Model](docs/Integration%20Model.drawio.png)
