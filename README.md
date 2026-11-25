@@ -83,8 +83,9 @@ Each layer plays a specific role in transforming raw data into structured, busin
 
 ### 🔗 Additional Architecture Documentation
 
-- 📊 [Data Flow Diagram](docs/Data%20Flow%20Diagram.drawio.png)
-- 🔗 [Data Integration Model](docs/Integration%20Model.drawio.png)
+
+- 📊 [Data Flow Diagram](https://github.com/khanfarazwk/sql-data-warehouse-project/blob/main/docs/Data%20Flow%20Diagram.drawio.png)
+- 🔗 [Data Integration Model](https://github.com/khanfarazwk/sql-data-warehouse-project/blob/main/docs/Integration%20Model.drawio.png)
 - 🗃️ [Gold Layer Data Model](docs/data_model.drawio.png)
 - 📖 [Data Dictionary](docs/data_catalog.md)
 
